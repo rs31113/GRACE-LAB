@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRACE LAB</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/gallery.css' %}">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="icon" href="{% static 'img/icon.png' %}" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="hero-section">
+        <img src="{% static 'img/background.jpg' %}" alt="Background" class="full-screen-image">
+        <div class="hero-content">
+            <h1 style="font-size: 70px;">GRACE LAB</h1>
+            <p style="font-size: 30px;">салон красоты</p>
+            <img id="arrow-down" src="{% static 'img/arrow.png' %}" alt="Arrow Down">
+        </div>
+    </div>
+
+    <div>
+        {% include 'gallery.html' %}
+    </div>
+
+    <div class="map-container">
+        <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=32417952933" width="" height="400" frameborder="0"></iframe>
+    </div>
+    {% include 'about.html' %}
+
+    <script type="text/javascript" src="https://w1160048.yclients.com/widgetJS" charset="UTF-8"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/gallery.js' %}"></script>
+</body>
+<div class="footer">
+    {% include 'footer.html' %}
+</div>
+</html>
