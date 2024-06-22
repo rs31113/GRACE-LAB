@@ -1,0 +1,39 @@
+footer {
+    padding: 20px;
+    font-family: Copperplate;
+}
+
+.footer-buttons,
+.signature,
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.footer-buttons a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-buttons a:hover {
+    color: gray;
+}
+
+.signature {
+    color: lightgray;
+    font-size: 10px;
+}
+
+.signature-link {
+    text-decoration: none;
+    color: gray;
+}
