@@ -26,7 +26,7 @@ This repository contains the code for the landing page of "Grace Lab," a beauty 
 
 ## Contributing
 
-This repository is private and intended for demonstration purposes. If you have access and wish to suggest improvements, please contact us directly.
+This repository is private and intended for demonstration purposes. If you have access and wish to suggest improvements, please contact me directly.
 
 ## License
 
@@ -34,4 +34,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or issues, please contact us via email at [rs31113@yandex.ru](mailto:rs31113@yandex.ru) or through Telegram at [@rs31113](https://t.me/rs31113).
+For any inquiries or issues, please contact me via email at [rs31113@yandex.ru](mailto:rs31113@yandex.ru) or through Telegram at [@rs31113](https://t.me/rs31113).
