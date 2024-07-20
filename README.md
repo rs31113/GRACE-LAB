@@ -1,6 +1,6 @@
-# Grace Lab Landing Page
+# GRACE LAB
 
-This repository contains the code for the landing page of "Grace Lab," a beauty salon based in Moscow. The website is developed using Python (Django framework), HTML, and CSS. The site is live and can be accessed at [https://grace-lab.ru](https://grace-lab.ru).
+This repository contains the code for the landing page of "Grace Lab", a beauty salon based in Moscow. The website is developed using Python (Django framework), HTML, and CSS. The site is live and can be accessed at [https://grace-lab.ru](https://grace-lab.ru).
 
 ## Project Overview
 
