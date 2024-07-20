@@ -1,46 +1,15 @@
 import os
 from pathlib import Path
-import environ
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-env = environ.Env(
-    SECRET_KEY=(str, ""),
-    EMAIL_BACKEND=(str, ""),
-    EMAIL_HOST=(str, ""),
-    EMAIL_PORT=(int, 587),
-    EMAIL_HOST_USER=(str, ""),
-    EMAIL_HOST_PASSWORD=(str, ""),
-    EMAIL_USE_TLS=(bool, True),
-    DEFAULT_FROM_EMAIL=(str, ""),
-    DEBUG=(bool, False),
-    ALLOWED_HOSTS=(list, ["127.0.0.1"]),
-    DB_NAME=(str, ""),
-    DB_USER=(str, ""),
-    DB_PASSWORD=(str, ""),
-    DB_ENGINE=(str, ""),
-    DB_PORT=(str, ""),
-    DB_HOST=(str, "localhost")
-)
 
-environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
+SECRET_KEY = "..."
 
-EMAIL_BACKEND = env("EMAIL_BACKEND")
-EMAIL_HOST = env("EMAIL_HOST")
-EMAIL_PORT = env("EMAIL_PORT")
-EMAIL_HOST_USER = env("EMAIL_HOST_USER")
-EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
-EMAIL_USE_TLS = env("EMAIL_USE_TLS")
-DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL")
+DEBUG = True
 
-
-SECRET_KEY = env("SECRET_KEY")
-
-
-DEBUG = env("DEBUG")
-
-ALLOWED_HOSTS = env("ALLOWED_HOSTS")
+ALLOWED_HOSTS = ["www.grace-lab.ru", "grace-lab.ru"]
 
 
 INSTALLED_APPS = [
@@ -53,7 +22,6 @@ INSTALLED_APPS = [
     "about",
     "main",
     "gallery",
-    "terms",
     "django_ckeditor_5",
 ]
 
@@ -91,8 +59,6 @@ WSGI_APPLICATION = "grace.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
