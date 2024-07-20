@@ -17,12 +17,13 @@ This repository contains the code for the landing page of "Grace Lab", a beauty 
 - **Interior and Works**: Visual representation of the salon's interior and portfolio.
 - **Service Booking**: Integration with Yclients API for seamless online appointment scheduling.
 - **Contact Information**: Easy-to-find contact details and an embedded Yandex Map for location guidance.
+- **Analytics**: Detailed statistics and client actions tracking using Yandex.Metrica API.
 
 ## Technologies Used
 
 - **Backend**: Python, Django
-- **Frontend**: HTML, CSS
-- **APIs**: Yclients API for booking, Yandex Maps API for location
+- **Frontend**: HTML, CSS, JavaScript
+- **APIs**: Yclients API for booking, Yandex Maps API for location, Yandex.Metrica API for analytics
 
 ## Contributing
 
